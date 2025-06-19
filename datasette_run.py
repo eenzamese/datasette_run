@@ -43,7 +43,7 @@ try:
     with open(f"{app_path}{sep}{app_name}.config", 'r', encoding='UTF-8') as cf:
         conf = json.load(cf)
 except Exception as ex: # pylint: disable=broad-exception-caught
-    logger.critical("No config file found")
+    logger.critical("Config file problem - %s", str(ex))
     sys.exit()
 db_path = conf['db_path']
 
