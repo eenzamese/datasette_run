@@ -1,32 +1,31 @@
-<div align="center"><h1 align="left">Gate checker</h1></div>
+<div align="center"><h1 align="left">Datasette run</h1></div>
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 [![Product Name Screen Shot][product-screen]](https://example.com)
 
-Check connections for IP list
+Tables monitoring tool
 
 ## Installation
 
 Clone the repo
    ```sh
-   git clone https://github.com/eenzamese/gate.git
+   git clone https://github.com/eenzamese/datasette_run.git
    ```
 
 ## Usage
 
-Edit inputs in speed_switch.py
+Edit inputs in datasette_run.py
 ```py
 # inputs
 # input comment next
-INPUT_DIR = r"C:\\Users\\User\\cloud\\servers\\"
-OUTPUT_FILE = r"C:\\Users\\User\\cloud\\servers\\filtered.txt"
+INPUT_DIR = r"C:\\Path\\to\\sqlite\\database\\"
 ```
 
 Run python script
    ```sh
-   python3 gate/gate.py
+   python3 datasette_run/datasette_run.py
    ```
 <!-- LICENSE -->
 
@@ -34,7 +33,7 @@ Run python script
 
 eenzamese@gmail.com
 
-Project Link: [https://github.com/eenzamese/gate](https://github.com/eenzamese/gate)
+Project Link: [https://github.com/eenzamese/datasette_run](https://github.com/eenzamese/datasette_run)
 
 
 
