@@ -1,6 +1,6 @@
 # -*- mode: python -*-
 
-a = Analysis(['gate.py'],
+a = Analysis(['datasette_run.py'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -16,7 +16,7 @@ exe = EXE(
     a.binaries,
     a.zipfiles,
     a.datas,
-    name='gate',
+    name='datasette_run',
     debug=False,
     strip=False,
     upx=True,
